@@ -1,6 +1,1 @@
-var http = reqiure('http');
-
-http.createServer(function(req, res){
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.end('hello world');
-}).listen(8080);
+require('./logger.js');
