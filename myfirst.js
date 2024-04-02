@@ -1,1 +1,3 @@
-require('./logger.js');
+const log = require('./logger.js');
+
+log('Hello World!');
